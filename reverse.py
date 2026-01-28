@@ -18,3 +18,11 @@ def isPalindrome(num):
     return num ==reverse(num)
 print(reverse(123))
 print(isPalindrome(121))
+
+def getPalindromes(start,stop):
+    res=' '
+    for i in range(start,stop+1):
+        if isPalindrome(i):
+            res=res+str(i)+"  "
+    return res
+print(getPalindromes(1,1000))
