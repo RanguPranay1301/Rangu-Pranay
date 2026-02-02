@@ -1,0 +1,11 @@
+<<<<<<< Updated upstream
+story-->06
+a='good'
+b='morning'
+msg=a+b
+=======
+story--->05
+ x=5
+y=5
+z=x+y
+>>>>>>> Stashed changes
