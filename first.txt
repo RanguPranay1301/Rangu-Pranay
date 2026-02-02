@@ -1,0 +1,4 @@
+story-->06
+a='good'
+b='morning'
+msg=a+b
